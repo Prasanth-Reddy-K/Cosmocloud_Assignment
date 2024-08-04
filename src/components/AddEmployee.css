@@ -1,0 +1,75 @@
+.add-employee-container {
+    padding: 20px;
+    max-width: 500px;
+    /* Adjust width as needed */
+    margin: 0 auto;
+}
+
+.add-employee-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-employee-form .form-group {
+    margin-bottom: 15px;
+}
+
+.add-employee-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-employee-form input,
+.add-employee-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    /* Ensures padding is included in width */
+}
+
+.add-employee-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+.add-employee-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-methods-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-methods-container select,
+.contact-methods-container input {
+    width: auto;
+    /* Adjust to prevent full width */
+    margin-bottom: 5px;
+}
+
+.contact-methods-container button {
+    margin-top: 5px;
+}
+
+.contact-methods-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-methods-list li {
+    margin-bottom: 5px;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: green;
+}
